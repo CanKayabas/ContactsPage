@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Days One", Arial, Tahoma, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#container {
+    max-width: 1663px;
+    margin: auto;
+    width: 100vw;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+    opacity: 0.9;
+}
+
+header .headerMenu {
+    margin: 0;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .headerMenu li {
+    margin: 0.5em 0 0.2em 0;
+    padding: 5px 15px 5px 15px;
+}
+
+header .headerMenu li a {
+    color: inherit;
+    text-decoration: none;
+}
+
+header .headerMenu li a:hover {
+    transition: color 0.5s;
+    color: #006be3;
+}
+
+header #active{
+    color: #006be3;
+}
+
+header .buy {
+    background-color: #006be3;
+    color: #ffffff;
+    padding: 11px 20px;
+    border-radius: 50px;
+    line-height: 21px;
+    margin-right: 2em;
+    cursor: pointer;
+}
+
+#contacts {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 180px;
+    background: #f2f3f4;
+    background-image: url(https://wallpaper.dog/large/10892385.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+#contacts h6 {
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: #006be3;
+}
+
+#contacts h2 {
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 400;
+    margin-bottom: 1em;
+}
+
+#contacts .questionContainer {
+    display: flex;
+    max-width: 1060px;
+    margin: auto;
+    text-align: left;
+}
+
+#contacts .questionContainer .form {
+    background-color: #ffffff;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    padding: 40px 40px 25px;
+    width: 66%;
+}
+
+#contacts .questionContainer .form .block {
+    display: block;
+    width: 100%;
+}
+
+#contacts .questionContainer .form .inl-block {
+    display: inline;
+    width: 49.5%;
+}
+
+#contacts .questionContainer .form h4 {
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 400;
+    letter-spacing: 0px;
+}
+
+#contacts .questionContainer .form p {
+    color: #797c80;
+    margin: 0 0 15px;
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+#contacts .questionContainer .form form textarea,
+#contacts .questionContainer .form form input {
+    padding: 10px;
+    outline: none;
+    margin: 0;
+    margin-bottom: 0px;
+    width: 230px;
+    max-width: 100%;
+    margin-bottom: 20px;
+    font-size: 14px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 0;
+    box-sizing: border-box;
+    color: #626262;
+    background-color: #f4f4f9;
+    border-color: #EBEBEB;
+    resize: none;
+}
+
+#contacts .questionContainer .form form #sending {
+    background-color: #006be3;
+    color: #ffffff;
+    padding: 11px 20px;
+    border-radius: 50px;
+    line-height: 21px;
+    margin-right: 2em;
+    cursor: pointer;
+}
+
+#contacts .questionContainer .adress {
+    width: 44%;
+    color: #fff;
+}
+
+#contacts .questionContainer .adress p {
+    margin: 0 0 15px;
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+#contacts .questionContainer .adress h4 {
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    margin: 15px auto 15px;
+}
+
+#contacts .questionContainer .adress h5 {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    letter-spacing: 0px;
+}
+
+#contacts .questionContainer .adress hr {
+    height: 1px;
+    border: none;
+    background: white;
+    margin: 0 auto 15px;
+}
+
+#contacts .questionContainer .adress .contactInfoUp {
+    background: #47b4fd;
+    border-radius: 20px 20px 0 0;
+    padding: 40px 40px 25px;
+}
+
+#contacts .questionContainer .adress .contactInfoUp .iconInfo {
+    font-size: 2.3em;
+}
+
+#contacts .questionContainer .adress .contactInfoUp .iconInfo i {
+    cursor: pointer;
+}
+
+#contacts .questionContainer .adress .contactInfoDown {
+    padding: 40px 40px 25px;
+    background-color: #006be3;
+    padding: 40px 40px 25px;
+    border-radius: 0 0 20px 20px;
+}
+
+#footer {
+    text-align: center;
+    position: relative;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#footer .copirating {
+    margin-bottom: 20px;
+    padding-top: 30px;
+    min-height: 33px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    min-height: 33px;
+    color: black;
+    font-size: 13px;
+}
+
+#footer .copirating a {
+    text-decoration: none;
+    color: #006be3;
+}
+
+@media screen and (max-width: 1600px) {
+    #ourPlus ul {
+        flex-wrap: wrap;
+        margin: auto;
+    }
+
+    #ourPlus ul li {
+        width: 50%;
+        margin-bottom: 2em;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    #about .aboutText {
+        top: 0;
+        left: 1em !important;
+    }
+
+    #moreAbout .moreAboutImage {
+        display: block;
+        margin: auto;
+        float: none;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    #contacts .questionContainer {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #contacts .questionContainer .adress,
+    #contacts .questionContainer .form {
+        width: 100%;
+    }
+
+    #header {
+        min-height: 3.3em;
+    }
+
+    #header .headerMenu:hover {
+        height: 12em;
+    }
+
+    #header .headerMenu {
+        transition: height 1s;
+        display: block;
+        position: absolute;
+        top: 0;
+        overflow: hidden;
+        height: 3em;
+        z-index: 40;
+        background: #ffffff;
+        width: 20em;
+    }
+
+    #header .headerMenu li {
+        background: #ffffff;
+        display: inline-block;
+        opacity: 0.9;
+    }
+
+    #header .headerMenu li .logo {
+        cursor: pointer;
+    }
+}

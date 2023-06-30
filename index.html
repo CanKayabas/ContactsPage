@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fontawesome-free-5.15.1/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Days+One&amp;display=swap">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Contacts Page</title>
+</head>
+
+<body>
+    <header id='header'>
+        <div>
+            <ul class='headerMenu'>
+                <!--<li><img style="height: 50px;" class='logo' src=""></img></li>-->
+                <li><a href='#'>Home</a></li>
+                <li><a href='#'>About</a></li>
+                <li><a href='#'>Teams</a></li>
+                <li><a href='https://github.com/CanKayabas'>GitHub</a></li>
+                <li><a id="active" href='#'>Contact</a></li>
+            </ul>
+        </div>
+        <div class='buyEl'>
+            <div class="buy">
+                <p>Contact us</p>
+            </div>
+        </div>
+    </header>
+    <div id='contacts'>
+        <h6>Contact us</h6>
+        <h2>
+            Do you have any question?
+        </h2>
+        <div class='questionContainer'>
+            <div class='form'>
+                <i style="color: #006be3;" class="fa fa-compass fa-2x"></i>
+                <h4>Send us a message</h4>
+                <p>
+                    Contact us page template text Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry.
+                </p>
+                <form onsubmit="alert('submit!');return false">
+                    <input placeholder="Your name" type='text' class='inl-block' required>
+                    <input placeholder="Your e-mail" type='email' class='inl-block' required>
+                    <input class='block' placeholder="subject" type='text' required>
+                    <textarea cols="40" rows='8' class='block' placeholder="message" name="comment"></textarea>
+                    <input type='submit' id='sending' value='Send a message'></input>
+                </form>
+            </div>
+            <div class='adress'>
+                <div class='contactInfoUp'>
+                    <i style="color: white;" class="fa fa-paper-plane fa-2x"></i>
+                    <h4>Our address</h4>
+                    <p>
+                        Istanbul
+                        <br />
+                        Turkey
+                    </p>
+                    <hr />
+                    <p>
+                        Monday - Saturday
+                        <br />
+                        08:00 AM - 10:00 PM
+                    </p>
+                    <p>contactspage@cnK.com</p>
+                    <div class='iconInfo'>
+                        <i class="fab fa-github"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-twitter-square"></i>
+                    </div>
+                </div>
+                <div class='contactInfoDown'>
+                    <P>Our Help desk is available Monday to Saturday 08:00 AM - 10:00 PM</p>
+                    <h5>+90 (0) 500 600 700</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id='footer'>
+        <div class='copirating'>
+            cnK Contacts Page Template Web Site <a href='https://github.com/CanKayabas'>cnK</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
